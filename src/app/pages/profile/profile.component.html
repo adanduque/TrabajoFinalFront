@@ -1,0 +1,13 @@
+<div class="cont-profile">
+    <h2><span style="font-weight: bold;">{{nameUser}}</span></h2>
+    <mat-divider></mat-divider>
+
+    <mat-list>
+        <div mat-subheader>Roles</div>
+        <mat-list-item *ngFor="let rol of roles">
+            <mat-icon mat-list-icon>account_circle</mat-icon>
+            <div mat-line>{{rol}}</div>
+        </mat-list-item>
+
+    </mat-list>
+</div>
